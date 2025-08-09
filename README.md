@@ -11,8 +11,7 @@
 ---
 
 ### **Project Description**
-
-A revolutionary web app that gives *therapy* to… bullock carts. Yes, the wooden, wheel-y legends of yesteryear. Using highly advanced emotional algorithms (a.k.a. vibes), we diagnose the unspoken trauma these noble carts carry — from overworked spokes to tragic pothole incidents — and help them heal… one *virtual counselling session* at a time.
+Have you heard the malayalam proverb "വണ്ടിയുടെ കയ്യിൽ പാമ്പ് കണ്ടു വിട്ട കാളം മറക്കരുത്" in malayalam.We always offer therapy sessions for humans why not one for bullock carts too.They too got traumas from snake encounters.A revolutionary web app that gives *therapy* to… bullock carts. Yes, the wooden, wheel-y legends of yesteryear. Using highly advanced emotional algorithms (a.k.a. vibes), we diagnose the unspoken trauma these noble carts carry — from overworked spokes to tragic pothole incidents — and help them heal… one *virtual counselling session* at a time.
 
 ---
 
