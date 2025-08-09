@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartrauma™ - Emotional Healing for Bullock Carts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="village-background"></div>
+    <div class="floating-elements">
+        <div class="cloud cloud1">☁️</div>
+        <div class="cloud cloud2">☁️</div>
+        <div class="cloud cloud3">☁️</div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo-container">
+            <div class="cart-logo">🛺</div>
+            <h1 class="site-title">Cartrauma™</h1>
+            <p class="tagline">Emotional Healing Center for Traumatized Bullock Carts</p>
+        </div>
+        <div class="mascot-cart">
+            <div class="cart-face">
+                <div class="eyes">
+                    <span class="eye left-eye">👁️</span>
+                    <span class="eye right-eye">👁️</span>
+                </div>
+                <div class="mouth">😢</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem Selection -->
+    <section class="problem-selector">
+        <h2>What's troubling your cart today?</h2>
+        <p class="problem-subtitle">Select your emotional burden for personalized therapy</p>
+        <div class="problem-buttons">
+            <button class="problem-btn" data-problem="abandoned">
+                <div class="problem-icon">🛤️</div>
+                <div class="problem-title">Abandonment Trauma</div>
+                <div class="problem-description">"Abandoned on a muddy road during monsoon, now I fear puddles"</div>
+                <div class="problem-severity">Severity: Medium</div>
+            </button>
+            <button class="problem-btn" data-problem="heartbreak">
+                <div class="problem-icon">💔</div>
+                <div class="problem-title">Romantic Transport Trauma</div>
+                <div class="problem-description">"Carried a heartbreak too far - literally transported someone to their ex's wedding"</div>
+                <div class="problem-severity">Severity: High</div>
+            </button>
+            <button class="problem-btn" data-problem="overloaded">
+                <div class="problem-icon">📦</div>
+                <div class="problem-title">Excessive Burden Disorder</div>
+                <div class="problem-description">"Overloaded with expectations - they put 50 sacks when I can handle 20!"</div>
+                <div class="problem-severity">Severity: High</div>
+            </button>
+            <button class="problem-btn" data-problem="lost">
+                <div class="problem-icon">🗺️</div>
+                <div class="problem-title">Political Navigation Confusion</div>
+                <div class="problem-description">"Got lost in village politics - took wrong turn at panchayat office"</div>
+                <div class="problem-severity">Severity: Medium</div>
+            </button>
+            <button class="problem-btn" data-problem="bullocks">
+                <div class="problem-icon">🐂</div>
+                <div class="problem-title">Bovine Relationship Issues</div>
+                <div class="problem-description">"My bullocks have commitment issues - they keep looking at other carts"</div>
+                <div class="problem-severity">Severity: Medium</div>
+            </button>
+            <button class="problem-btn" data-problem="identity">
+                <div class="problem-icon">🎭</div>
+                <div class="problem-title">Existential Cart Crisis</div>
+                <div class="problem-description">"Am I just a cart, or am I a soul with wheels? Having deep philosophical doubts about my purpose"</div>
+                <div class="problem-severity">Severity: Critical</div>
+            </button>
+        </div>
+        <div class="problem-stats">
+            <div class="stat-item">
+                <span class="stat-number">1,247</span>
+                <span class="stat-label">Carts Helped</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">94%</span>
+                <span class="stat-label">Success Rate</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Features Container -->
+    <div class="features-container">
+        
+        <!-- Therapy Chatbox -->
+        <section class="feature-box therapy-section">
+            <h3>🛋️ Cart Therapy Session</h3>
+            <div class="chat-container">
+                <div class="therapist-avatar">
+                    <div class="therapist-face">👨‍⚕️</div>
+                    <span class="therapist-name">The Cartologist</span>
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message therapist-message">
+                        <p>Welcome to Cartrauma™! I'm The Cartologist, world's first and only specialist in cart psychology. Tell me, what brings your wheels to my clinic today?</p>
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="chatInput" placeholder="Type your emotional burdens here..." maxlength="200">
+                    <button id="sendMessage">Send 💬</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Snake Detector 9000 -->
+        <section class="feature-box snake-detector">
+            <h3>🐍 Snake Detector 9000™</h3>
+            <p class="feature-description">Advanced emotional toxicity scanner for your cart's psychological well-being</p>
+            <div class="detector-display">
+                <div class="scanner-screen">
+                    <div class="scan-line"></div>
+                    <div class="scan-results" id="scanResults">
+                        <p>Click scan to detect emotional snakes in your vicinity...</p>
+                    </div>
+                </div>
+                <div class="detector-controls">
+                    <button id="scanButton" class="scan-btn">🔍 SCAN FOR SNAKES</button>
+                    <div class="scanner-lights">
+                        <div class="light red" id="redLight"></div>
+                        <div class="light yellow" id="yellowLight"></div>
+                        <div class="light green" id="greenLight"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emotional Status Bar -->
+        <section class="feature-box status-section">
+            <h3>💚 Emotional Healing Progress</h3>
+            <div class="status-container">
+                <div class="status-bar-container">
+                    <label>Emotional Wellness Level:</label>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                        <span class="progress-text" id="progressText">15% - Slightly Wobbly</span>
+                    </div>
+                </div>
+                <div class="motivation-quotes" id="motivationQuotes">
+                    <p>"Every wheel turn is a step towards healing" - Chhota Bheem's Cart</p>
+                </div>
+                <div class="boost-buttons">
+                    <button class="boost-btn" data-boost="confidence">🌟 Confidence Boost</button>
+                    <button class="boost-btn" data-boost="strength">💪 Strength Surge</button>
+                    <button class="boost-btn" data-boost="peace">🕊️ Inner Peace</button>
+                    <button class="boost-btn" data-boost="malayali">🥥 Malayali Wisdom</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Horoscope Generator -->
+        <section class="feature-box horoscope-section">
+            <h3>🔮 Cart Horoscope</h3>
+            <p class="feature-description">Cosmic predictions for your emotional journey</p>
+            <div class="horoscope-container">
+                <div class="horoscope-wheel">
+                    <div class="wheel-center">🛺</div>
+                    <div class="wheel-signs">
+                        <span class="sign">🌙</span>
+                        <span class="sign">⭐</span>
+                        <span class="sign">☀️</span>
+                        <span class="sign">🌟</span>
+                    </div>
+                </div>
+                <div class="horoscope-display" id="horoscopeDisplay">
+                    <p>Click below to reveal your cart's cosmic destiny...</p>
+                </div>
+                <button id="generateHoroscope" class="horoscope-btn">✨ Generate Horoscope</button>
+            </div>
+        </section>
+
+        <!-- Healing Certificate -->
+        <section class="feature-box certificate-section">
+            <h3>📜 Healing Certification</h3>
+            <p class="feature-description">Official recognition of your emotional recovery</p>
+            <div class="certificate-preview">
+                <div class="certificate-template">
+                    <div class="cert-header">
+                        <h4>🏆 CARTRAUMA™ INSTITUTE</h4>
+                        <p>Official Center for Cart Emotional Rehabilitation</p>
+                        <h5>MASTER DEGREE IN EMOTIONAL RESILIENCE</h5>
+                        <p class="malayalam-text">മാനസിക പ്രതിരോധ ശേഷിയിൽ ബിരുദം</p>
+                    </div>
+                    <div class="cert-content">
+                        <p><strong>Awarded to:</strong></p>
+                        <div class="cert-name" id="certName">[Your Cart Name]</div>
+                        <div class="cert-name-malayalam" id="certNameMalayalam">[Malayalam Cart Name]</div>
+                        
+                        <p>For successfully completing emotional rehabilitation therapy and achieving a healing level of <span id="healingLevel">93%</span> while bravely confronting the trauma of: <span id="traumaType">"General Life Struggles"</span></p>
+                        
+                        <div class="grade-section">
+                            <p><strong>Grade: SUMMA CUM LAUDE 🌟</strong></p>
+                        </div>
+                        
+                        <ul class="cert-permissions">
+                            <li>✅ Carry emotional burdens responsibly</li>
+                            <li>✅ Navigate village roads with confidence</li>
+                            <li>✅ Resist snake-induced trauma</li>
+                            <li>✅ Maintain healthy bullock relationships</li>
+                        </ul>
+                        
+                        <div class="cert-signature">
+                            <p><strong>The Cartologist</strong><br>
+                            Chief Cart Psychologist<br>
+                            <span class="malayalam-text">കാർട്ട് മനോചികിത്സകൻ</span></p>
+                        </div>
+                        
+                        <div class="cert-footer">
+                            <p>🎊 <strong>Congratulations! This certificate proves you are now emotionally qualified to carry life's burdens with dignity and humor!</strong> 🎊</p>
+                            <p class="malayalam-text">അഭിനന്ദനങ്ങൾ! ഈ സർട്ടിഫിക്കറ്റ് തെളിയിക്കുന്നത് നിങ്ങൾ ഇപ്പോൾ ജീവിതത്തിന്റെ ഭാരങ്ങൾ മാന്യതയോടും നർമ്മത്തോടും കൂടി വഹിക്കാൻ മാനസികമായി യോഗ്യരാണെന്ന്!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-controls">
+                    <input type="text" id="cartNameInput" placeholder="Enter your cart's name" maxlength="50">
+                    <button id="downloadCert" class="download-btn">📥 Download Certificate</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-cart">🛺</div>
+        <p>© 2024 Cartrauma™ - Healing Hearts, One Wheel at a Time</p>
+        <p class="disclaimer">*This is a purely comedic website. No actual carts were harmed in the making of this therapy center.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
