@@ -39,12 +39,6 @@ Figma – UI design and asset exports
 
 JavaScript – (Tiny bit) for interactive features
 
-**For Hardware:**
-
-* A working laptop
-* A stable internet connection (stable enough to heal cart feelings)
-* At least one emotional bullock cart GIF
-
 ---
 
 ### **Implementation**
@@ -101,6 +95,3 @@ https://drive.google.com/drive/folders/167iiGGe9FsN-ewlAbP-QL1bQFb9npzQS?usp=dri
 ---
 
 
-### **The Problem (that doesn’t exist)**
-
-Every day, thousands of bullock carts silently s
